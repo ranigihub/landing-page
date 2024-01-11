@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(16, 35, 52);
+}
+.collapse .navbar-nav a{
+    color: white;
+    font-size: 15px;
+}
+.navbar-toggler-icon{
+   color: black;
+}
+.header{
+    background-image: linear-gradient( to right, rgba(0,0,0,.5), rgba(0,0,0,.1)),url(./imges/back.png);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.massage h1{
+    font-size: 6rem;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, red 30%, #1b32c9 70%, #33f208);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.getsize{
+    margin-left: 100px;
+}
+.textcolor{
+    background: linear-gradient(90deg, red 30%, #1b32c9 70%, #33f208);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.font{
+    font-size: 100px;
+}
+ .btn-center button{
+    color: rgb(218, 218, 218);
+    background-color: rgb(13, 54, 90);
+    margin: 5px 5px;
+    outline: none;
+    padding: 3px 20px;
+
+ }
+ .btn-center button:hover{
+    background-color:  rgb(218, 218, 218);
+    color: rgb(13, 54, 90);;
+ }
+ .share-btn button{
+    border-radius: 15px;
+    width: 100px;
+    color: rgb(13, 54, 90);
+    background-color: white;
+ }
+ .share-btn button:hover{
+    background-color: rgb(66, 28, 34);
+    color: rgb(250, 251, 253);
+ }
+ .card img{
+    height: 150px;
+ }
+ 
+ .anchor-normal{
+    text-decoration: none;
+    color: black;
+    
+ }
+ 
+ .navbar .nav-link:hover{
+   color: blue;
+   border-bottom: 1px solid red;
+   transition: all 0.5s;
+ }
+ .hidden{
+    opacity: 0;
+   filter: blur(5px);
+    transform:  translateX(-100%);
+    transition: all 1s;
+ }
+ .show{
+    opacity: 1;
+    filter: blur(0);
+    transform:  translateX(0);
+ }
